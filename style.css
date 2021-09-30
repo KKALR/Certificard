@@ -1,0 +1,99 @@
+body {
+  background: linear-gradient(236.85deg, #8b5a2b -50.03%, #ffec8b 96.26%);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #1c1c1c;
+  color: #fffafa;
+  margin: 60px;
+  border-radius: 30px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 170px;
+  box-shadow: 0px 5px 5px rgba (0, 0, 0, 0, 25);
+}
+
+.titulo {
+  margin-left: 20px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #f8f8ff;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(236.85deg, #ffec8b 30.26%, #8b5a2b 96.03%);
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 2px 4px 5px rgba (16, 16, 0, 0, 42);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 25px;
+  color: #1c1c1c;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.projetos-item {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #1c1c1c 40.26%, #fff68f 96.03%);
+}
+
+.dark .container {
+  background: #fffafa;
+  color: #1c1c1c;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #fffafa;
+  border: 2px solid #f7f7f7;
+}
